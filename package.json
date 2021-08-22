@@ -23,7 +23,7 @@
   ],
   "scripts": {
     "test": "jest",
-    "typescript": "tsc --noEmit",
+    "tsc": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build",
     "example": "yarn --cwd example",
