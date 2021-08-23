@@ -3,4 +3,6 @@
 
 @interface ZxingScanner : NSObject <RCTBridgeModule>
 
+@property (nonatomic, assign) BOOL setBridgeOnMainQueue;
+
 @end

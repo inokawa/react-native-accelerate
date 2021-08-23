@@ -1,9 +1,5 @@
-import { NativeModules } from 'react-native';
+declare function example(a: number, b: number): number;
 
-type ZxingScannerType = {
-  multiply(a: number, b: number): Promise<number>;
-};
-
-const { ZxingScanner } = NativeModules;
-
-export default ZxingScanner as ZxingScannerType;
+export function multiply(a: number, b: number): number {
+  return example(a, b);
+}

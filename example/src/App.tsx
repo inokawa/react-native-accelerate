@@ -1,13 +1,14 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import ZxingScanner from 'react-native-zxing-scanner';
+import { multiply } from 'react-native-zxing-scanner';
 
 export default function App() {
   const [result, setResult] = React.useState<number | undefined>();
 
   React.useEffect(() => {
-    ZxingScanner.multiply(3, 7).then(setResult);
+    const res = multiply(123, 456);
+    setResult(res);
   }, []);
 
   return (
