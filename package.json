@@ -1,7 +1,7 @@
 {
-  "name": "react-native-zxing-scanner",
+  "name": "react-native-accelerate",
   "version": "0.1.0",
-  "description": "A zxing barcode scanner for React Native.",
+  "description": "TODO",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -13,7 +13,7 @@
     "android",
     "ios",
     "cpp",
-    "react-native-zxing-scanner.podspec",
+    "react-native-accelerate.podspec",
     "!lib/typescript/example",
     "!android/build",
     "!ios/build",
@@ -35,13 +35,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/inokawa/react-native-zxing-scanner",
+  "repository": "https://github.com/inokawa/react-native-accelerate",
   "author": "inokawa <48897392+inokawa@users.noreply.github.com> (https://github.com/inokawa)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/inokawa/react-native-zxing-scanner/issues"
+    "url": "https://github.com/inokawa/react-native-accelerate/issues"
   },
-  "homepage": "https://github.com/inokawa/react-native-zxing-scanner#readme",
+  "homepage": "https://github.com/inokawa/react-native-accelerate#readme",
   "devDependencies": {
     "@react-native-community/eslint-config": "^2.0.0",
     "@types/jest": "^26.0.0",

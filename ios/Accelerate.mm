@@ -1,9 +1,9 @@
-#import "ZxingScanner.h"
+#import "Accelerate.h"
 #import <React/RCTBridge+Private.h>
 #import <React/RCTUtils.h>
 #import <jsi/jsi.h>
 
-@implementation ZxingScanner
+@implementation Accelerate
 
 @synthesize bridge = _bridge;
 @synthesize methodQueue = _methodQueue;

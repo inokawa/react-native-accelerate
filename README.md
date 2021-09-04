@@ -1,6 +1,6 @@
-# react-native-zxing-scanner
+# react-native-accelerate
 
-A zxing barcode scanner for React Native.
+TODO
 
 ## Installation
 

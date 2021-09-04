@@ -18,11 +18,11 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-    compileSdkVersion safeExtGet('ZxingScanner_compileSdkVersion', 29)
-    buildToolsVersion safeExtGet('ZxingScanner_buildToolsVersion', '29.0.2')
+    compileSdkVersion safeExtGet('Accelerate_compileSdkVersion', 29)
+    buildToolsVersion safeExtGet('Accelerate_buildToolsVersion', '29.0.2')
     defaultConfig {
-        minSdkVersion safeExtGet('ZxingScanner_minSdkVersion', 16)
-        targetSdkVersion safeExtGet('ZxingScanner_targetSdkVersion', 29)
+        minSdkVersion safeExtGet('Accelerate_minSdkVersion', 16)
+        targetSdkVersion safeExtGet('Accelerate_targetSdkVersion', 29)
         versionCode 1
         versionName "1.0"
 

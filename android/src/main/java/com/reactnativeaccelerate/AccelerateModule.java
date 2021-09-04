@@ -1,14 +1,14 @@
-package com.reactnativezxingscanner;
+package com.reactnativeaccelerate;
 
 import androidx.annotation.NonNull;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 
-public class ZxingScannerModule extends ReactContextBaseJavaModule {
-    public static final String NAME = "ZxingScanner";
+public class AccelerateModule extends ReactContextBaseJavaModule {
+    public static final String NAME = "Accelerate";
 
-    public ZxingScannerModule(ReactApplicationContext reactContext) {
+    public AccelerateModule(ReactApplicationContext reactContext) {
       super(reactContext);
     }
 
@@ -30,11 +30,11 @@ public class ZxingScannerModule extends ReactContextBaseJavaModule {
     public void initialize() {
       super.initialize();
 
-      ZxingScannerModule.setup(this.getReactApplicationContext().getJavaScriptContextHolder().get());
+      AccelerateModule.setup(this.getReactApplicationContext().getJavaScriptContextHolder().get());
     }
 
     @Override
     public void onCatalystInstanceDestroy() {
-      ZxingScannerModule.cleanUp();
+      AccelerateModule.cleanUp();
     }
 }

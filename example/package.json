@@ -1,6 +1,6 @@
 {
-  "name": "react-native-zxing-scanner-example",
-  "description": "Example app for react-native-zxing-scanner",
+  "name": "react-native-accelerate-example",
+  "description": "Example app for react-native-accelerate",
   "version": "0.0.1",
   "private": true,
   "scripts": {

@@ -1,6 +1,6 @@
 //
 //  File.swift
-//  ZxingScannerExample
+//  AccelerateExample
 //
 
 import Foundation

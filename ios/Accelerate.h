@@ -1,7 +1,7 @@
 #import <React/RCTBridgeModule.h>
 #import "example.h"
 
-@interface ZxingScanner : NSObject <RCTBridgeModule>
+@interface Accelerate : NSObject <RCTBridgeModule>
 
 @property (nonatomic, assign) BOOL setBridgeOnMainQueue;
 

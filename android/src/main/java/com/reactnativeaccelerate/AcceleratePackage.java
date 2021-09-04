@@ -1,4 +1,4 @@
-package com.reactnativezxingscanner;
+package com.reactnativeaccelerate;
 
 import androidx.annotation.NonNull;
 
@@ -11,12 +11,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ZxingScannerPackage implements ReactPackage {
+public class AcceleratePackage implements ReactPackage {
     @NonNull
     @Override
     public List<NativeModule> createNativeModules(@NonNull ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
-        modules.add(new ZxingScannerModule(reactContext));
+        modules.add(new AccelerateModule(reactContext));
         return modules;
     }
 

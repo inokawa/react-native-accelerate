@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "react-native-zxing-scanner": ["./src/index"]
+      "react-native-accelerate": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
